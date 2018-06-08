@@ -116,7 +116,8 @@ int examen(const u_char trama[]/*,int longitud, char resultado[],int longres*/){
 
 
 int main(){
+	const u_char *pkts[] = { pkt1, pkt2 };
 	printf("**ETS Practico**\n\n");
-	examen(pkt1);
+	examen(pkts[0]);
 	return 0;
 }
