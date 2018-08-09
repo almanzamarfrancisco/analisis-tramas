@@ -200,3 +200,8 @@ void main(){
 		getchar();
 	}while(i<sizeof(valores)/sizeof(u_char));
 }
+
+
+
+
+//http://148.204.58.221/ealdana/redesnp/Diapositivas/
